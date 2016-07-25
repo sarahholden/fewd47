@@ -1,0 +1,59 @@
+body {
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background: #FCFBE3;
+	color: #595959;
+}
+
+a {
+	font-weight: bold;
+	color: #FC6454;
+}
+
+a:hover {
+	color: #FFD810;
+}
+
+small {
+	color: #282828;
+}
+
+h2 {
+	color: #282828;
+}
+
+h1 {
+	color: #282828;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	text-align: center;
+	font-style: italic;
+}
+
+h3 {
+	font-size: 18px;
+	color: #282828;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h4 {
+	font-weight: normal;
+}
+
+p {
+	font-family: Georgia, serif;
+}
+
+ul {
+	list-style: square;
+}
+
+strong {
+	color: #282828;
+}
+
+nav {
+	text-align: center;
+}
