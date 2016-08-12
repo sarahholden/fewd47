@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+  <!--[if lt IE 8]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <h1>Contact me</h1>
+  <form action="http://formspree.io/sarahbethholden@gmail.com" method="post">
+    <div class="column">
+      <input type="text" id="name" name="name" placeholder="Name" autofocus required>
+      <input type="email" id="email" name="_replyto" placeholder="Email address" required>
+      <input type="text" id="subject" name="subject" placeholder="Subject" required>
+    </div>
+    <div class="column">
+      <textarea name="message" type="text" id="message" placeholder="Message" required></textarea>
+    </div>
+    <input type="submit" value="Submit" id="submit">
+  </form>
+
+  <input type="radio" name="gender" value="female" id="female" checked="checked">
+  <label for="female">Female</label>
+  <input type="radio" name="gender" value="male" id="male">
+  <label for="male">Male</label>
+
+  <input type="submit" value="Submit">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
