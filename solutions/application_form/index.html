@@ -1,0 +1,64 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <form action="">
+    <fieldset>
+      <legend>Your Contact Info</legend>
+
+      <label for="fullName">Full Name</label>
+      <input id="fullName" type="text" placeholder="Enter your Name" name="fullName">
+      <label for="emailAddress">Email</label>
+      <input id="emailAddress" type="email" placeholder="Enter your email" name="emailAddress">
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+    </fieldset>
+
+    <fieldset>
+      <legend>Skills and Interests</legend>
+      <label for="course">What course are you interested in?</label>
+      <select name="course" id="course">
+        <option value="" selected disabled>Select</option>
+        <option value="frontEnd">Front End Web Development</option>
+        <option value="">Back End Web Development</option>
+        <option value="">User Experience</option>
+        <option value="">JavaScript Development</option>
+        <option value="">Data Science</option>
+      </select>
+      <label>Where do you want to take this course?</label>
+      <div class="radio-wrapper">
+        <label for="sf">San Francisco</label>
+        <input type="radio" name="location" value="sf" id="sf">
+        <label for="chicago">Chicago</label>
+        <input type="radio" name="location" value="Chicago" id="chicago">
+      </div>
+      <label for="experience">Past Experience</label>
+      <textarea name="experience" id="experience" placeholder="What is your past experience?"></textarea>
+      
+
+
+
+    </fieldset>
+
+    <label for="newsletter" class="c-label">I want to receive email updates.</label>
+    <input type="checkbox" id="newsletter">
+    <button type="submit">Submit Application</button>
+  </form>
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
