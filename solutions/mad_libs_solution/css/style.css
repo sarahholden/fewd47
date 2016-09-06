@@ -1,0 +1,127 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Neuton', serif;
+	font-size: 30px;
+	-webkit-font-smoothing:  antialiased;
+	width: 70%;
+	max-width: 600px;
+	margin: 0 auto;
+	color: #222;
+	background-color: #FFEB3B;
+	text-align: center;
+}
+
+form {
+	margin-top: 30px;
+	padding: 20px 0;
+	border-radius: 4px;
+}
+
+select {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	border: 0;
+	font-size: 15px;
+}
+
+select:focus {
+	outline: none;
+}
+
+input {
+	border-radius: 4px;
+	display: block;
+	width: 100%;
+	padding: 8px 10px;
+	font-size: 15px;
+	box-shadow: none;
+	border: none;
+	margin-bottom: 15px;
+	transition: all .3s ease-in-out;
+}
+
+input:focus {
+	outline:  none;
+	border-bottom-color: #bbb;
+}
+
+button {
+	background-color: #F95758;
+	margin-top: 20px;
+	width: 100%;
+	border: none;
+	padding:  8px 10px;
+	border-radius: 4px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+li {
+	border-radius: 50%;
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	border: 3px solid #fff;
+}
+
+#yellow {
+	background-color: #FFEB3B;
+}
+
+#blue {
+	background-color: #3F51B5;
+}
+
+#black {
+	background-color: #222;
+}
+
+
+/* START Styles to be used in JS */
+
+
+/* STEP 1: Hide any elements that have a class .quote */
+.quote {
+	display: none;
+}
+
+.error {
+	border: 2px solid #F95758;
+}
+
+.yellow {
+	background-color: #FFEB3B;
+	color: #222;
+}
+
+.blue {
+	background-color: #3F51B5;
+	color: #fff;
+}
+
+.black {
+	background-color: #222;
+	color: #fff;
+}
+
+
+/* END Styles to be used in JS */
+
+@media only screen and (max-width: 550px) {
+	body {
+		width: 80%;
+	}
+}

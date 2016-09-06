@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mad Libs</title>
+
+<!-- 	<link href="https://fonts.googleapis.com/css?family=Neuton|Playfair+Display:700" rel="stylesheet"> -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<nav>
+		<ul>
+			<li id="yellow"></li>
+			<li id="blue"></li>
+			<li id="black"></li>
+		</ul>
+	</nav>
+
+
+	<h1>Mad Libs</h1>
+
+	<form>
+		<select name="author" id="authorSelect">
+			<option disabled selected>Select Author</option>
+			<option value="suess">Dr. Suess</option>
+			<option value="carroll">Lewis Carroll</option>
+		</select>
+
+		<input type="" name="noun" id="nounInput" placeholder="Noun">
+		<input type="" name="verb" id="verbInput" placeholder="Verb">
+		<button type="submit">Submit</button>
+	</form>
+
+	<p id="suess" class="quote">You have <span class="noun">brains</span> in your head. You have feet in your shoes. You can <span class="verb">steer</span> yourself in any direction you choose.</p>
+	
+	<p id="carroll" class="quote">It's no use going back to yesterday, because I <span class="verb">was</span> a different <span class="noun">person</span> then.</p>
+
+
+	<script src="js/jquery-2.1.3.js"></script>
+	<script src="js/main.js"></script>
+
+
+</body>
+</html>
